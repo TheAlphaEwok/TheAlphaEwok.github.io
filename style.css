@@ -1,5 +1,5 @@
 body {
-    font-family: 'Times New Roman', Times, serif, sans-serif;
+    font-family: 'Roboto', Times, serif, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -16,7 +16,7 @@ body {
   
   nav a {
     margin: 0 10px;
-    color: #61dafb;
+    color: #80e3ff;
     text-decoration: none;
   }
   
@@ -25,12 +25,27 @@ body {
     max-width: 800px;
     margin: auto;
   }
+
+  section h2{
+    margin-bottom: 15px;
+  }
+
+  section p{
+    margin-bottom: 10px;
+  }
   
   .project {
     background: #fff;
     margin: 15px 0;
     padding: 15px;
     border-left: 5px solid #72BF44;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .project a{
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 10px;
   }
   
   footer {
