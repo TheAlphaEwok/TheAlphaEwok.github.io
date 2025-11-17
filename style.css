@@ -34,6 +34,29 @@ body {
     margin-bottom: 10px;
   }
   
+  .skill-category {
+      margin: 20px 0;
+      padding: 15px;
+      background: #fff;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .skill-category h3 {
+      font-size: 1.15em;
+      color: #154734;
+      margin-top: 0;
+      margin-bottom: 8px;
+      padding-bottom: 5px;
+      border-bottom: 2px solid #f4f4f4;
+  }
+
+  .skill-category p {
+      line-height: 1.8;
+      margin-bottom: 0;
+      color: #555;
+  }
+
   .experience-entry {
     background: #fff;
     margin: 15px 0;
